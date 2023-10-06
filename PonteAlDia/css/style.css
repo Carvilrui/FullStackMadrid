@@ -230,7 +230,7 @@
     right: 0;
 }
 
-/* EJERCICIO DE GRID */
+/* EJERCICIO 1 DE GRID */
 .ejercicioGrid div{
     border: 1px solid black;
 }
@@ -264,10 +264,93 @@
 /* EJERCICIO 3 DE GRID */
 .ejercicioG div{
     border: 1px solid black;
+    /* background-color: red; */
 }
 
 .ejercicioG{
     display: grid;
     grid-template-rows: 300px 300px 300px;
     grid-template-columns: 1fr 1fr;
+}
+
+.ultimoDiv{
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+
+/* EJERCICIO 4 DE GRID */
+.ejercicioGr div{
+    border: 1px solid black;
+}
+
+.ejercicioGr{
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* height: 900px; */
+}
+
+.divUno{
+    grid-column: 1/3;
+    grid-row: 3/5;
+}
+
+.divDos{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.divTres{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.divCuatro{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.divCinco{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+/* EJERCICIO 5 DE GRID */
+.ejercicioGri{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px 100px 100px;
+}
+
+.ejercicioGri div{
+    border: 1px solid black;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divOne{
+    grid-column: 4/5;
+    grid-row: 1/3;
+}
+
+.divTwo{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.divThree{
+    grid-column: 2/5;
+    grid-row: 3/5;
+}
+
+.divFour{
+    grid-column: 1/2;
+    grid-row: 2/5;
+}
+
+.divFive{
+    grid-column: 1/3;
+    grid-row: 1/2;
 }
