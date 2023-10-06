@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+        AQUI PUEDO COMENTAR LO QUE QUIERA
+        SIEMPRE QUE ESTE DENTRO DE LAS ETIQUETAS
+        DE COMENTARIO
+        <style>
+        h1 {
+            color:red; 
+            /* PROPIEDAD Y VALOR */
+            background-color: yellow;
+            /* MOSTRAR PROPIEDAD COLORE, VER COMO APARECE TACHADO PUES ES ERRONEO. */
+        }
+    </style> -->
+
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link href="./css/normalize.css" rel="stylesheet">
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuggles&display=swap" rel="stylesheet"> -->
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link href="./css/style.css" rel="stylesheet">
+    <!-- LINK, ME DA INFO DE DONDE TENGO ALOJADA LA HOJA DE ESTILOS REL ME INDICA LA RELACION CON EL DOCUMENTO ACTUAL PONEMOS ANTES DEL LINK -->
+
+    <title>Tu Carrera Digital</title>
+</head>
+
+<body>
+    <header class="seccionHeader contenedor">
+
+        <div class="seccionImagen">
+            <a href="#"><img src="img/Tu-carrera-digital-general.png"></a>
+        </div>
+
+        <div class="seccionEnlaces">
+
+            <div class="seccionLogin">
+                <a href="#"> Log in Alumnos | </a>
+
+                <a href="#"> Log in Empresas</a>
+            </div>
+
+            <div class="seccionNav">
+                <a href="#">Cursos</a>
+                <a href="#">Sobre Nosotros</a>
+                <a class="botonInformate" href="#">Infórmate</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- BANNER PRINCIPAL  -->
+    <main class="fondoMain">
+        <div class="contenedor">
+            <div class="margenDerecho">
+                <h1>Descubre la formación que te dará la oportunidad de convertirte en un profesional digital</h1>
+                <div class="flexMain">
+                    <img src="./img/ico-centro.png">
+                    <a href="https://www.tucarreradigital.es/zona-centro#cursos">Ver Cursos ></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- SECCION DE IMAGENES DE CORPORACIONES  -->
+    <section class="logos contenedor">
+        <img src="./img/Logos-oficiales.png" alt="Logos oficiales tu carrera digital">
+        <img src="./img/Logo-Adecco.png">
+    </section>
+
+    <!-- SECCION DE CURSOS  -->
+    <section class="seccionCursos contenedor">
+        <h3>Cursos</h3>
+        <h2>Cambia tu futuro</h2>
+        <div class="botonesCursos">
+            <a class="botonVerTodo" href="#">Ver Todo</a>
+            <a class="botonMadrid" href="#">Madrid</a>
+        </div>
+        <div class="cursosOfertados">
+            <div class="marketing">
+                <h2>Marketing Digital</h2>
+                <div>
+                    <a href="https://www.tucarreradigital.es/zona-centro/curso-marketing-digital#cursos">Inscribirme</a>
+                </div>
+            </div>
+            <div class="videojuegos">
+                <h2>PROGRAMACIÓN DE VIDEOJUEGOS, DISEÑO 3D Y REALIDAD VIRTUAL</h2>
+                <div>
+                    <a href="https://www.tucarreradigital.es/zona-centro/curso-marketing-digital#cursos">Inscribirme</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PIDENOSLO  -->
+    <section class="pidenoslo contenedor">
+        <h3>¿TE INTERESA ALGÚN OTRO CURSO EN TU CIUDAD?</h3>
+        <div>
+            <a href="#">¡Pídenoslo!</a>
+        </div>
+    </section>
+
+    <!-- SECCION VIDEO -->
+    <section class="video contenedor">
+        <iframe width="1120" height="630" src="https://www.youtube.com/embed/SzZlMSDKE8o?si=lTym8yOjZm9oPMQD"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </section>
+
+    <!-- SECCION PARA QUIEN SON ESTOS CURSOS  -->
+    <section class="seccionParaQuien contenedor">
+        <div class="paraQuienIzq">
+            <h3>¿PARA QUIÉN SON ESTOS CURSOS?</h3>
+            <h2>Si quieres dar un giro a tu carrera profesional y formarte en profesiones digitales con futuro, este es tu lugar.</h2>
+            <p>Cuando eliges un curso en <span>Tu Carrera Digital</span> , estás dando el paso definitivo hacia las
+                profesiones con más demanda del momento, como Marketing Digital, Desarrollo Web Full Stack y Programación de Videojuegos, Diseño 3D y Realidad Virtual. Nosotros te ofrecemos formación con docentes expertos y contenidos alineados a las necesidades de las empresas. Queremos que saques el máximo partido a estos cursos y que potencies tus posibilidades de encontrar un empleo.</p>
+            <h4>PARA PARTICIPAR, NECESITARÁS ESTAR INSCRITO EN GARANTÍA JUVENIL</h4>
+            <a href="https://www.sepe.es/HomeSepe/Personas/encontrar-trabajo/Garantia-Juvenil/que-es-garantia-juvenil">Ir a la web Garantía Juvenil</a>
+            <h5>Descárgate esta infografía en la que te mostramos cómo descargar tu certificado de Garantía Juvenil:</h5>
+            <a class="botonInfografia" href="https://www.tucarreradigital.es/assets/Infografia-S.G.J.pdf">Descargar infografía adjunta</a>
+        </div>
+        <div class="paraQuienDer">
+            <div class="paraQuienDerSup">
+                <h5>¿Eres <span class="destacarAzul">mayor de 16 años y menor de 30</span> ?</h5>
+                <h5>¿Estás <span>sin trabajar</span> ?</h5>
+                <h5>¿Estás <span>sin cursar formación</span> ?</h5>
+            </div>
+            <div class="paraQuienDerInf">
+                <img src="./img/ico-centro.png">
+                <h4>Dale forma a tu futuro <br>y despega con <br><span>Tu carrera digital</span></h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION LOCALIZACIONES -->
+    <section class="cajas-localizaciones">
+        <h2 class="contenedor">localizaciones:</h2>
+        <div class="contenedor">
+            <div>
+                <h3>Madrid</h3>
+                <p>CALLE DEL MARQUÉS DE AHUMADA 7 PLANTA BAJA AULA 15 28028, MADRID, MADRID.</p>
+            </div>
+            <div>
+                <h3>Madrid</h3>
+                <p>CALLE DEL MARQUÉS DE AHUMADA 7 PLANTA BAJA AULA 15 28028, MADRID, MADRID.</p>
+            </div>
+        </div>
+    </section>
+    <!-- 
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"></path>
+        <path d="M15 7a2 2 0 0 1 2 2"></path>
+        <path d="M15 3a6 6 0 0 1 6 6"></path>
+     </svg> -->
+
+<!-- SECCION CONTACTO -->
+    <section class="Contacto">
+        <div class="contenedor">
+            <h3>Contactar</h3>
+            <h2>¿Tienes dudas? habla con nosotros</h2>
+            <div class="ContactoCuadros">
+                <div class="cuadro1">
+                    <img src="./img/ico-TLF.png" alt="">
+                    <div class="llamada">
+                        <p>Llamanos</p>
+                        <a href="638024408">638024408</a>
+                    </div>
+                </div>
+                <div class="cuadro2">
+                    <img src="./img/ico-EMAIL.png" alt="">
+                    <div class="correo">
+                        <p>Escribenos</p>
+                        <a href="patric.departearroyo@adecco.com">patric.departearoyo@adecco.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="seccionFooter contenedor">
+        <div class="enlacesFooter">
+            <a href="">Cursos Zona-Centro</a>
+            <a href="">Sobre Nosotros</a>
+        </div>
+        <div class="paginasLegales">
+            <a href="">Preguntas Frecuentes (FAC)</a>
+            <a href="">Politicas de Cookies</a>
+            <a href="">Politicas de Privacidad</a>
+            <a href="">Aviso Legal</a>
+        </div>
+    </footer>
+
+    <!-- 
+    <form>
+        <fieldset>
+
+            <legend>Titulo del formulario</legend>
+
+            <label>Nombre y Apellidos *</label>
+            <input type="text" placeholder="Escribe aqui tu nombre" required>
+
+            <label>Telefono</label>
+            <input type="tel" placeholder="Llamate ya">
+
+            <label>Email</label>
+            <input type="email" placeholder="Tu email">
+
+            <input type="submit" value="Enviar ya de ya">
+
+        </fieldset>
+    </form>
+ -->
+</body>
+</html>

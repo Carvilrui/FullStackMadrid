@@ -1,0 +1,273 @@
+/* EJERCICIO DE SELECTOR DE CADENA DESCENDENTE Y TODOS LOS HIJOS */
+.selectorCadenaDescendente h2{
+    background-color: blue;
+    height: 100px;
+}
+
+.selectorTodosLosHijos > div > div > h2{
+    background-color: blue;
+    height: 100px;
+}
+
+/* EJERCICIO DE MARGIN Y PADDING */
+.seccionMargin{
+    height: 200px;
+    background-color: yellow;
+    margin: 50px;
+}
+
+.seccionPadding{
+    height: 200px;
+    background-color: yellow;
+    padding: 50px;
+}
+
+/* EJERCICIO DE DISPLAY BLOCK Y DISPLAY INLINE */
+.seccionDisplayBlock{
+    display: block;
+}
+
+.seccionDisplayBlock p{
+    background-color: aqua;
+}
+
+.seccionDisplayBlock a{
+    background-color: coral;
+}
+
+.seccionDisplayBlock h1{
+    background-color: darkgoldenrod;
+}
+
+.seccionDisplayBlock h3{
+    background-color: chartreuse;
+}
+
+.seccionDisplayBlock h6{
+    background-color: gold;
+}
+
+.seccionDisplayBlock div p{
+    background-color: violet;
+}
+
+.seccionDisplayInline p{
+    background-color: aqua;
+    display: inline;
+}
+
+.seccionDisplayInline a{
+    background-color: coral;
+    display: inline;
+}
+
+.seccionDisplayInline h1{
+    background-color: darkgoldenrod;
+    display: inline;
+}
+
+.seccionDisplayInline h3{
+    background-color: chartreuse;
+    display: inline;
+}
+
+.seccionDisplayInline h6{
+    background-color: gold;
+    display: inline;
+}
+
+.seccionDisplayInline div p{
+    background-color: violet;
+    display: inline;
+}
+
+/* EJERCICIO JUSTIFY CONTENT Y ALIGN ITEMS */
+.seccionJustify{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    background-color: green;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: end;
+}
+
+.seccionAlign{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    background-color: blue;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: end;
+}
+
+/* EJERCICIO 1 DE DISPLAY FLEX */
+.ejemplo1{
+    display: flex;
+    flex-direction: row;
+}
+
+.ejemplo1 .caja1{
+    width: 20%;
+    background-color: darkorange;
+}
+.ejemplo1 .caja2{
+    width:30% ;
+    background-color: aqua;
+}
+
+.ejemplo1 .caja3{
+    width: 50%;
+    background-color: yellow;
+}
+
+/* EJERCICIO 2 DE DISPLAY FLEX */
+.ejemplo2{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+
+.ejemplo2 .caja1{
+    flex: 1;
+    background-color: deepskyblue;
+}
+
+.ejemplo2 .caja2{
+    flex: 2;
+    background-color: deeppink;
+}
+
+/* EJERCICIO 3 DE DISPLAY FLEX */
+.ejemplo3{
+    display: flex;
+    flex-direction: row;
+}
+
+.ejemplo3 .caja1{
+    width: 40%;
+    background-color: lightblue;
+}
+
+.ejemplo3 .caja2{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    background-color: navy;
+}
+
+.ejemplo3 .caja2 .parrafo1{
+    width: 30%;
+    background-color: orangered;
+}
+
+.ejemplo3 .caja2 .parrafo2{
+    width: 70%;
+    background-color: peru;
+}
+
+/* EJERCICIO DE MEDIA QUERIES */
+.dimensiones{
+    height: 500px;
+}
+
+@media (max-width:350px){
+    .dimensiones{
+        background-color: green;
+    }
+}
+
+@media (min-width:350px) and (max-width:616px){
+    .dimensiones{
+        background-color: red;
+    }
+}
+
+@media (min-width:616px) and (max-width:933px){
+    .dimensiones{
+        background-color: blue;
+    }
+}
+
+@media (min-width:933px) and (max-width:1131px){
+    .dimensiones{
+        background-color: yellow;
+    }
+}
+
+@media (min-width:1131px){
+    .dimensiones{
+        background-color: brown;
+    }
+}
+
+/* EJERCICIO DE ABSOLUTE Y RELATIVE */
+.ejercicioAR{
+    height: 500px;
+    /* background-color: blue; */
+    /* background-image: linear-gradient(to right, red 50%, blue 55%); */
+    background: rgba(241,231,103,1);
+    background: -moz-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
+    background: -webkit-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    background: -o-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    background: -ms-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 );
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    position: relative; /*Para que funcione correctamente el absolute*/
+}
+
+.ejercicioAR div{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 200px;
+    right: 0;
+}
+
+/* EJERCICIO DE GRID */
+.ejercicioGrid div{
+    border: 1px solid black;
+}
+
+.ejercicioGrid{
+    display: grid;
+    height: 500px;
+    /* grid-template-columns: 20% 30% 50%;
+    grid-template-rows: 200px 100px; */
+    /* grid-template-columns: 80% 100px; */
+    grid-template-columns: 100fr 300fr 200fr 150fr;
+    grid-template-rows: 5fr 15fr 16fr 7fr;
+}
+
+/* EJERCICIO 2 DE GRID */
+.ejercicioRepeat div{
+    border: 1px solid black;
+}
+
+.ejercicioRepeat{
+    display: grid;
+    height: 300px;
+    /* grid-template-rows: 2fr 2fr;
+    grid-template-columns: 1fr 1fr; */
+    grid: 2fr 2fr / 1fr 1fr; 
+    /* column-gap: 20px;
+    row-gap: 20px; */
+    gap: 20px;
+}
+
+/* EJERCICIO 3 DE GRID */
+.ejercicioG div{
+    border: 1px solid black;
+}
+
+.ejercicioG{
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 1fr 1fr;
+}
