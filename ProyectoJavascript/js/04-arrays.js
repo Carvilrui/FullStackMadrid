@@ -42,6 +42,10 @@ console.log("Resultado del objeto finde: ", prop1 + ",", prop2 + ",", prop3 + ",
 
 console.log("Longitud del array: ", meses.length);
 
+meses.forEach(function(x){
+    console.log(x); //Función de iteración
+})
+
 numeros.push(60); //Añade el valor al final del araay
 numeros.push(70, 80, 90, 100);
 console.log("Números actualizados: ", numeros);
