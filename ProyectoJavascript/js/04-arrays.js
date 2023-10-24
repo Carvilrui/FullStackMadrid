@@ -95,15 +95,15 @@ resultado = meses.includes("Abril");
 console.log("Uso de includes para buscar en array plano: ", resultado);
 
 resultado = carrito.some(function(producto){
-    return producto.nombre === "Consola" //Busca el valor en array de objetos
+    return producto.nombre === "Consola"; //Busca el valor en array de objetos
 })
 
 resultado = carrito.reduce(function(total, producto){
-    return total + producto.precio //Suma los valores del array
+    return total + producto.precio; //Suma los valores del array
 }, 0); //El valor desde donde inicia
 console.log("Uso de reduce: ", resultado);
 
 resultado = carrito.filter(function(producto){
-    return producto.precio > 20 //Filtra valores del array
+    return producto.precio > 20; //Filtra valores del array
 });
 console.log("Uso de filter: ", resultado);
