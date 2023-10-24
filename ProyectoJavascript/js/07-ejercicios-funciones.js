@@ -249,7 +249,6 @@ console.log("Nombre del Mes: "+nombremes(5));
 
 //Ejercicio de una función que determina si una contraseña es segura basándose en:  longitud>8,  mayúsculas y minusculas, números. F: CONTRASEÑASEGURA P: CONTRASEÑA
 function contraseñasegura(contraseña){
-    const regex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8}$/; // Al menos un digito y una minuscula, mayuscula y 8 en total
     var segurac=false;
     if (contraseña.match(/[a-z]/g) && contraseña.match(/[A-Z]/g)){
         console.log('Contraseña con mayusculas y minusculas');
