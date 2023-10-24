@@ -144,7 +144,7 @@ function vocales(texto){
     texto=texto.replace(/[^a-z]/gi,'').split('');
     for(let i in texto){
         switch(texto[i]) {
-            case 'a':
+            case 'a':   
                 contador++;
                 break;
             case 'e':
@@ -167,7 +167,7 @@ console.log(vocales("Hola"));
 
 //Ejercicio de una función que cuenta la cantidad de palabras en una cadena. F: PALABRAS P: TEXTO
 function palabras(texto){
-    return texto.trim().length;
+    return texto.trim().split(' ').length;
 }
 console.log(palabras("Hola, como estas? Estoy bien!"));
 
