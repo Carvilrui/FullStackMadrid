@@ -1,0 +1,8 @@
+.seccionPrincipal{
+    width: 100%;    
+}
+
+h1, #botonPrincipal, .navPrincipal{
+    display: flex;
+    justify-content: space-around;
+}
