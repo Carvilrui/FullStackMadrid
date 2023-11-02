@@ -6,3 +6,7 @@ h1, #botonPrincipal, .navPrincipal{
     display: flex;
     justify-content: space-around;
 }
+
+body{
+    height: 20000px;
+}

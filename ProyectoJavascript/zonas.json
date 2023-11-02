@@ -1,0 +1,32 @@
+{
+    "zonas" :[
+        {
+            "id":1,
+            "zona":"Norte",
+            "ciudades": "Galicia, País Vasco, Cantabria, La Rioja, Navarra y Asturias",
+            "enlaceZonas": "#",
+            "enlaceCursos": "#"
+        },
+        {
+            "id":2,
+            "zona":"Sur",
+            "ciudades": "Andalucía, Extremadura y Canarias",
+            "enlaceZonas": "#",
+            "enlaceCursos": "#"
+        },
+        {
+            "id":3,
+            "zona":"Este",
+            "ciudades": "Cataluña, Islas Baleares, Castilla la Mancha, Comunidad Valenciana y Murcia",
+            "enlaceZonas": "#",
+            "enlaceCursos": "#"
+        },
+        {
+            "id":4,
+            "zona":"Centro",
+            "ciudades": "Madrid, Aragón y Castilla y León",
+            "enlaceZonas": "#",
+            "enlaceCursos": "#"
+        }
+    ]
+}
